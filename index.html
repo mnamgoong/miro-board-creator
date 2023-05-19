@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Miro Board Creator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <h1>Miro Board Creator</h1>
+
+    <!-- Here is where the user can a board name and card description -->
+    <div class="form">
+        <div class="form-section">
+        <label>Board Name: </label>
+        <input type="text" id="board-name" placeholder="Enter a board name" />
+        </div>
+
+        <div class="form-section">
+        <label>Card Title: </label>
+        <input type="text" id="card-title" placeholder="Enter a card title" />
+        </div>
+
+        <div class="form-section">
+        <label>Card Description: </label>
+        <textarea rows="3" id="card-description" placeholder="Enter a card description"></textarea>
+        </div>
+
+        <button id="button">GO!</button>
+    </div>
+
+    <!-- Here is where the Miro board will be displayed -->
+    <div id="result"></div>
+
+    <div class="space"></div>
+
+    <script src="script.js"></script>
+  
+</body>
+
+</html>
