@@ -1,2 +1,2 @@
 # Miro Board Creator
-A rudimentary web application for creating a Miro board using the Miro API
+![](https://github.com/mnamgoong/miro-board-creator/blob/main/demo.gif)
